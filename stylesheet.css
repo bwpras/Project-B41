@@ -1,0 +1,56 @@
+/*generalisasi container*/
+.container {
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+/*generalisasi btn (cek bila ada yg sama)*/
+
+.btn {
+    display: inline-block;
+}
+
+/*heading berjarak 141px dari main*/
+.heading {
+    text-align: center;
+    color: #333333;
+    padding-top: 141px;
+    padding-bottom: 13px;
+}
+
+.heading h2{
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-family: Puritan;    
+}
+
+.message-wrapper {
+    padding-bottom: 44px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.message {
+    background-color: #219653;
+    padding: 32px 320px;
+    box-shadow: 0 9px #27ae60;
+    cursor: pointer;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    font-family: Playfair Display SC;
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+}
+
+
+
+/*animasi tombol subscribe*/
+.message:active {
+    position: relative;
+    top: 9px;
+    box-shadow: none;
+}
